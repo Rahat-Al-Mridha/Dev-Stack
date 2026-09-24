@@ -30,7 +30,7 @@ const YourStack = ({
           No technologies selected yet.
         </h6>
 
-        <div className="mt-4 flex h-[100px] w-[200px] items-center justify-center rounded-xl border border-dashed border-gray-200">
+        <div className="mt-4 flex h-[100px] w-[220px] items-center justify-center rounded-xl border border-dashed border-gray-200">
           <p className="text-sm text-gray-400">
             Your stack is empty.
           </p>
@@ -40,7 +40,7 @@ const YourStack = ({
   }
 
   return (
-    <div className="grid grid-cols-1 gap-3 w-120 ml-6 mb-260 mt-8 rounded-2xl bg-white p-5 shadow-sm">
+    <div className="grid grid-cols-1 gap-2 w-120 ml-6 mb-260 mt-7 rounded-2xl bg-white p-5 shadow-sm">
 
       <h2 className="text-base font-semibold text-gray-800">
         Your Stack

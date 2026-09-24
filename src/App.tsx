@@ -22,7 +22,7 @@ function App() {
     <>
       <Nav />
       <Banner />
-      <div className=" flex max-w-6xl mx-auto">
+      <div className=" flex h-full max-w-6xl mx-auto">
         <Technologies
           technologies={technologies}
           selectedTechnologies={selectedTechnologies}
@@ -33,6 +33,7 @@ function App() {
           selectedTechnologies={selectedTechnologies}
           setSelectedTechnologies={setSelectedTechnologies}
         />
+
       </div>
 
       <Footer />
