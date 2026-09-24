@@ -7,7 +7,6 @@ import AvailableTechnology from '../TechnologyGrid';
 
 
 interface technologiesProps {
-    // technologiesPromise: Promise<Itechnologies[]>
     selectedTechnologies: Itechnologies[];
     setSelectedTechnologies: Dispatch<SetStateAction<Itechnologies[]>>;
     technologies:Itechnologies[];
@@ -15,7 +14,7 @@ interface technologiesProps {
 
 
 const Technologies = ({ technologies,selectedTechnologies, setSelectedTechnologies }: technologiesProps) => {
-    // console.log(technologiesPromise)
+   
    
     console.log(technologies)
     return (
@@ -24,7 +23,7 @@ const Technologies = ({ technologies,selectedTechnologies, setSelectedTechnologi
             <p>Pick one technology per category to build your ideal stack.</p>
             <div className='flex '>
                  <AvailableTechnology technologies={technologies} selectedTechnologies={selectedTechnologies} setSelectedTechnologies={setSelectedTechnologies}></AvailableTechnology>
-                 {/* <YourStack selectedTechnologies={selectedTechnologies} setSelectedTechnologies={setSelectedTechnologies}></YourStack> */}
+                
             </div>
         </div>
     );
