@@ -18,7 +18,7 @@ const Technologies = ({ technologies,selectedTechnologies, setSelectedTechnologi
    
     console.log(technologies)
     return (
-        <div className='mx-auto  max-w-6xl items-center px-6'>
+        <div className='mx-auto  max-w-7xl items-center px-2'>
             <h2 className='font-bold text-4xl '>Explore the <span className='text-[#DE4BA6]'>Technologies</span></h2>
             <p>Pick one technology per category to build your ideal stack.</p>
             <div className='flex '>

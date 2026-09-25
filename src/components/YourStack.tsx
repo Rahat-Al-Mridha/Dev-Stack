@@ -30,7 +30,7 @@ const YourStack = ({
           No technologies selected yet.
         </h6>
 
-        <div className="mt-4 flex h-[100px] w-[220px] items-center justify-center rounded-xl border border-dashed border-gray-200">
+        <div className="mt-4  flex h-[100px] w-[200px] items-center justify-center rounded-xl border border-dashed border-gray-200">
           <p className="text-sm text-gray-400">
             Your stack is empty.
           </p>
@@ -50,15 +50,16 @@ const YourStack = ({
         {selectedTechnologies.length} technologies selected yet.
       </p>
 
-      {selectedTechnologies.map((technology) => (
-        <YourStackCard
-          key={technology.id}
-          technology={technology}
-          selectedTechnologies={selectedTechnologies}
-          setSelectedTechnologies={setSelectedTechnologies}
-        />
-      ))}
-
+      <div className="h-[400px] overflow-y-auto">
+        {selectedTechnologies.map((technology) => (
+          <YourStackCard
+            key={technology.id}
+            technology={technology}
+            selectedTechnologies={selectedTechnologies}
+            setSelectedTechnologies={setSelectedTechnologies}
+          />
+        ))}
+      </div>
       <button
         onClick={handleRemoveAll}
         className="w-full rounded-full border border-red-300 py-2 text-sm font-semibold text-red-500 hover:bg-red-50"

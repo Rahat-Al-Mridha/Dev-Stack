@@ -3,7 +3,7 @@ import banner from "../assets/banner-stack.png"
 const Banner = () => {
     return (
         <section className="w-full bg-white">
-            <div className="mx-auto flex h-full max-w-6xl items-center px-6">
+            <div className="mx-auto flex h-full max-w-7xl items-center px-6">
                 <div className="grid w-full grid-cols-1 items-center px-1">
 
                     <h1 className="text-5xl md:text-6xl font-bold leading-tight text-black">Build Your Ideal</h1>

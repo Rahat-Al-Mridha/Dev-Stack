@@ -17,7 +17,7 @@ const YourStackCard = ({ technology,selectedTechnologies, setSelectedTechnologie
         setSelectedTechnologies(restTechnologies)
     }
     return (
-        <div className='flex h-[100px] w-[200px] gap-2 justify-between items-center border-2 border-gray-200 rounded-3xl px-3 py-3'>
+        <div className='flex h-[100px] w-[300px] gap-4 justify-between mt-2 items-center border-2 border-gray-200 rounded-3xl px-3 py-3'>
             <div className='flex gap-2 '>
                 <img src={technology.icon} alt="" className='h-[40px] w-[40px]' />
                 <div>

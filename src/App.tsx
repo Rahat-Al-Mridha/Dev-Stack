@@ -20,23 +20,28 @@ function App() {
 
   return (
     <>
+
       <Nav />
       <Banner />
-      <div className=" flex h-full max-w-6xl mx-auto">
+
+      <div className="flex h-full max-w-7xl mx-auto">
         <Technologies
           technologies={technologies}
           selectedTechnologies={selectedTechnologies}
           setSelectedTechnologies={setSelectedTechnologies}
         />
+        <div className=" mt-15">
+          <YourStack
+            selectedTechnologies={selectedTechnologies}
+            setSelectedTechnologies={setSelectedTechnologies}
+          />
+        </div>
 
-        <YourStack
-          selectedTechnologies={selectedTechnologies}
-          setSelectedTechnologies={setSelectedTechnologies}
-        />
+      </div >
 
-      </div>
 
       <Footer />
+
     </>
   );
 }

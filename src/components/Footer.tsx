@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
     return (
-    <footer className="w-full bg-white">
+    <footer className="w-full bg-gray-100 mt-4">
       {/* Main Footer */}
-      <div className="mx-auto max-w-7xl px-6 py-10 md:px-10 lg:px-12">
+      <div className="mx-auto max-w-[83rem] px-6 py-10 md:px-10 lg:px-12">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-5 ">
           {/* Brand */}
           <div className="md:col-span-2">
